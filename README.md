@@ -1,5 +1,6 @@
 # portfolio
-This is an updated professional portfolio for myself
+
+This App is a professional portfolio
 
 # Deployed App Link
 
@@ -10,7 +11,8 @@ https://rorydavidtanner.github.io/portfolio/
 Contents:   index.html
             portfolio.html
             contact page folder
-            image files
+            style.css
+            imagefiles
             README.md
 
 # Description
