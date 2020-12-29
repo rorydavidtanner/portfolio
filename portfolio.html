@@ -27,7 +27,7 @@
 <nav class="navbar navbar-light navbar-1 white mb-4">
 
 <!-- Navbar brand -->
-<a class="navbar-brand" href="index.html"> <img src="./image files/RORYTANNERLOGO.jpg" class="img-fluid" alt="RORYTANNERLOGO"></a>
+<a class="navbar-brand" href="index.html"> <img src="./imagefiles/RORYTANNERLOGO.jpg" class="img-fluid" alt="RORYTANNERLOGO"></a>
   
 <!-- Collapse button -->
 <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent15" aria-controls="navbarSupportedContent15" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
@@ -57,18 +57,128 @@
   <br>
   <br>
 
-
-  <div class="container">
-    <div class="item">1
-      THIS IS A CARD
-    </div>
-    <div class="item">2
-
-    </div>
-    <div class="item">3
-
-    </div>
-  </div>
+  <style>
+      * {
+        box-sizing: border-box;
+      }
+      
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      
+      /* Style the header */
+      .header {
+        background-color: #f1f1f1;
+        padding: 30px;
+        text-align: center;
+        font-size: 35px;
+      }
+      
+      /* Container for flexboxes */
+      .row {
+        display: -webkit-flex;
+        display: flex;
+        padding: 20px;
+      }
+      
+      /* Create three equal columns that sits next to each other */
+      .column {
+        -webkit-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        padding: 10px;
+      }
+      /* Style the footer */
+      .footer {
+        background-color: #f1f1f1;
+        padding: 10px;
+        text-align: center;
+      }
+      
+      /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+      @media (max-width: 600px) {
+        .row {
+          -webkit-flex-direction: column;
+          flex-direction: column;
+        }
+      }
+      </style>
+      </head>
+      <body>
+      
+      <div class="header">
+        <h2>My Recent Projects</h2>
+      </div>
+      
+      <div class="row">
+        <div class="column" style="background-color:#aaa;">
+        <h2>Aussie Adventures</h2>
+        <br>
+        <p>
+            Description: Aussie Adventures provides a gallery of inspirational places to visit, with users' own photos,  locations and essential geographical data.
+            <br>
+            <br>
+            Languages used:HTML, CSS, JavaScript, API
+            <br>
+            <br>
+            <a href="https://rorydavidtanner.github.io/AussieAdventures/">Visit the App</a>
+            <br>
+            <br>
+            <a href="https://github.com/rorydavidtanner/portfolio">GitHub Repository</a>
+            <br>
+            <h3>Screenshot</h3>
+            <br>
+            <img src="./imagefiles/AusAdvent.png" alt="" width=500" height="500">
+        </p>
+        </div>
+        <div class="column" style="background-color:#bbb;">
+        <h2>Password Generator</h2>
+        <br>
+        <p>
+            Description: This app generates a password for the user by utilising a basic criteria which is chosen by  the user.
+            <br>
+            <br>
+            Languages used:HTML, CSS, JavaScript
+            <br>
+            <br>
+            <a href="https://rorydavidtanner.github.io/hw3-passwordgenerator/">Visit the App</a>
+            <br>
+            <br>
+            <a href="https://github.com/rorydavidtanner/hw3-passwordgenerator">GitHub Repository</a>
+            <br>
+            <h3>Screenshot</h3>
+            <br>
+            <img src="./imagefiles/passwordgen.png" alt="" width="500" height="500">
+        </p>
+        </div>
+        <div class="column" style="background-color:#ccc;">
+        <h2>Quiz</h2>
+        <br>
+        <p>
+            Description: Basic Quiz for the user to complete.
+            <br>
+            <br>
+            Languages used:HTML, CSS, JavaScript
+            <br>
+            <br>
+            <a href="https://rorydavidtanner.github.io/hw4-quiz/">Visit the App</a>
+            <br>
+            <br>
+            <a href="https://github.com/rorydavidtanner/hw4-quiz">GitHub Repository</a>
+            <br>
+            <h3>Screenshot</h3>
+            <br>
+            <img src="./imagefiles/quizstart.jpg" alt="" width="500" height="500">
+            <br>
+            <img src="./imagefiles/quizquestion.jpg" alt="" width="500" height="500">
+        </p>
+        </div>
+      </div>
+      <div class="footer">
+        <p>GitHub - <a href="https://github.com/rorydavidtanner"> CLICK HERE</a> to see my work and contributions.</p>
+      </div>
+      
+      
 
 
   <!-- Here we bring in some scripts required to allow some Bootstrap components to work.
